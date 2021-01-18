@@ -1,0 +1,92 @@
+body{
+  /* Sfondo principale */
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+*{
+  /* Imposto il font per qualsiasi tag */
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  /* Caratteristiche sfondo opaco */
+  width: 60%;
+  margin: 20px 20% 10% 20%;
+  padding: 50px 40px 70px 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+header{
+  /* Intestazione sito */
+  text-align: center;
+  color: lime;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#logo{
+  /* Dimensioni logo */
+  width: 150px;
+}
+
+nav{
+  /* Menu prenotazione e luci */
+  background-color: lime;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  margin-top: 5px;
+}
+
+section{
+  /* Per spaziare i vari elementi */
+  margin-top: 25px;
+}
+
+.monopattino, .via, .carica{
+  /* Colore del testo */
+  color: white;
+}
+
+.monopattino{
+  /* Font principale */
+  font-size: 20px;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.via, .carica{
+  /* Font secondario */
+  font-weight: 100;
+  font-size: 14px
+}
+
+.via:before{
+  /* Simbolo freccia */
+  content: '\21A6'
+}
+
+.barra1{
+  /* Carica del Primo Monopattino */
+  border-top: 30px solid orange;
+  border-radius: 5px;
+  width: 350px;
+  margin-left: 0px;
+}
+
+.barra2{
+  /* Carica del Secondo Monopattino */
+  border-top: 30px solid green;
+  border-radius: 5px;
+  width: 600px;
+  margin-left: 0px;
+}
+
+.barra3{
+  /* Carica del Terzo Monopattino */
+  border-top: 30px solid red;
+  border-radius: 5px;
+  width: 150px;
+  margin-left: 0px;
+}
